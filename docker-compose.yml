@@ -1,6 +1,6 @@
 dante:
     build: .
-    #restart: always
+    restart: always
     ports:
         - "1138:1080"
     volumes:
